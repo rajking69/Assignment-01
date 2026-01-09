@@ -224,6 +224,54 @@ nav ul a:hover {
     margin-top: 10px;
 }
 
+/* Card Section Styles */
+.issues-grid {
+    margin-left: 120px;
+    gap: 24px;
+    display: flex;
+    padding-top: 44px;
+}
+
+.issue-card {
+    cursor: pointer;
+    border-radius: 8px;
+    border: #88858514 1px solid;
+    text-align: center;
+    width: 322px;
+    height: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.issue-card:hover {
+    border: 1px solid #949996;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.issue-card img {
+    border-radius: 50%;
+    background-color: #F95555;
+    padding: 16px;
+    height: 60px;
+    width: 60px;
+    margin: 69.5px 131px 16px 131px;
+}
+
+.issue-heading {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.issue-text {
+    text-align: center;
+    margin-left: 24px;
+    color: #627382;
+    width: 274px;
+    height: 40px;
+    font-size: 16px;
+}
+
 /* Featured Card Section */
 
 .solution-feature {
