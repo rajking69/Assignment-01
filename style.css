@@ -4,11 +4,6 @@
     margin: 0;
 }
 
-/* Enables smooth scrolling animation  */
-html {
-    scroll-behavior: smooth;
-}
-
 .inter-font {
     font-optical-sizing: auto;
     font-family: "Inter", sans-serif;
@@ -18,7 +13,7 @@ body {
     max-width: 1600px;
 }
 
-/* Navigation Bar Styles */
+/* Navbar Styles */
 .navigation-bar {
     align-items: center;
     display: flex;
@@ -79,7 +74,7 @@ nav ul a:hover {
     background-color: #28A05A;
 }
 
-/* Hero Section Styles */
+/* Hero Banner Section */
 
 .hero-section {
     background-color: #0A0A0A;
@@ -201,7 +196,8 @@ nav ul a:hover {
     width: 16px;
 }
 
-/* Info Section Styles */
+/* Information Section */
+
 .problem-section {
     margin-left: 120px;
     height: 152px;
@@ -226,4 +222,109 @@ nav ul a:hover {
     justify-content: center;
     display: flex;
     margin-top: 10px;
+}
+
+/* Featured Card Section */
+
+.solution-feature {
+    padding: 120px 120px;
+    display: flex;
+}
+
+.feature-content {
+    margin-top: 102px;
+    margin-left: 60px;
+}
+
+.feature-label {
+    color: #30B868;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #0A1E3D;
+    margin-bottom: 16px;
+}
+
+.feature-text {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #627382;
+}
+
+.feature-item {
+    padding-bottom: 16px;
+    gap: 10px;
+    display: flex;
+}
+
+.feature-item img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Final Card Section */
+
+.cta-section {
+    padding: 0 120px;
+    margin-bottom: 120px;
+}
+
+.cta-wrapper {
+    border-radius: 12px;
+    text-align: center;
+    background-color: #F7F6F2;
+    width: 1360px;
+    padding: 80px 60px;
+    margin: 0 auto;
+}
+
+.cta-heading {
+    color: #0A1E3D;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-subheading {
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #627382;
+    font-size: 18px;
+}
+
+.cta-action-btn {
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #30B868;
+    padding: 16px 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-action-btn:hover {
+    box-shadow: 0 4px 12px rgba(48, 184, 104, 0.3);
+    transform: translateY(-2px);
+    background-color: #28A05A;
+}
+
+.cta-action-btn img {
+    height: 16px;
+    width: 16px;
+}
+
+.cta-footer-note {
+    color: #627382;
+    font-size: 14px;
+    margin-top: 32px;
 }
