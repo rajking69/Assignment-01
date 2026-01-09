@@ -200,3 +200,30 @@ nav ul a:hover {
     height: 16px;
     width: 16px;
 }
+
+/* Info Section Styles */
+.problem-section {
+    margin-left: 120px;
+    height: 152px;
+    width: 1360px;
+}
+
+.problem-title {
+    font-weight: 700;
+    font-size: 48px;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    padding-top: 60px;
+    padding: auto;
+}
+
+.problem-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
